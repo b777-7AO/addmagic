@@ -1,1 +1,4 @@
 .DS_Store
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/live/inject-journal.json
