@@ -275,3 +275,17 @@ h1 .line.grad{padding-bottom:.08em}
 @media (max-width:380px){
   .brand-word{display:none}
 }
+
+/* loop on phones: nodes hug the edges, shorter labels */
+@media (max-width:600px){
+  .loop-canvas{aspect-ratio:760/520}
+  .node{font-size:.66rem;padding:6px 8px;gap:5px;max-width:34%}
+  .node span{overflow:hidden;text-overflow:ellipsis}
+  .node.in{left:2%;transform:translate(0,-50%)}
+  .node.out{left:auto;right:2%;transform:translate(0,-50%)}
+  .node.in.swap,.node.out.swap{transform:translate(0,-50%) scale(.92)}
+  .node.core{max-width:none}
+  .review{top:88%;white-space:nowrap}
+  .loop-legend{gap:14px;font-size:.7rem}
+  .loop-legend span{white-space:nowrap}
+}
