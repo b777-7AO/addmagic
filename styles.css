@@ -272,7 +272,7 @@ h1 .line.grad{padding-bottom:.08em}
   .burger span,.burger span::before,.burger span::after{left:10px}
   .burger span::before,.burger span::after{left:0}
 }
-@media (max-width:380px){
+@media (max-width:340px){
   .brand-word{display:none}
 }
 
